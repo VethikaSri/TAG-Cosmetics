@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tag.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <title>#TAG Cosmetics</title>
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#" onclick="window.location.href='TAG.html';"><img src="img/Logo.png" class="Logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="TAG.html">Home</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a class="active" href="cart.html"><i class="fa fa-bag-shopping"></i></a></li>
+                    <a href="#" id="clo"><i class="fas fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i></td>
+                        <td><img src="img/Product10.png" alt=""></td>
+                        <td>Superdewy Liquid Blush</td>
+                        <td>₹556</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹556</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i></td>
+                        <td><img src="img/Product1.png" alt=""></td>
+                        <td>M.A.C Conceal & Correct Palette</td>
+                        <td>₹5200</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹5200</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i></td>
+                        <td><img src="img/Product5.png" alt=""></td>
+                        <td>Smashbox Halo Moisturizer</td>
+                        <td>₹1500</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹1500</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i></td>
+                        <td><img src="img/Product14.png" alt=""></td>
+                        <td>Maybelline Mascara</td>
+                        <td>₹302</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹302</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="Subtotal">
+                <h3>Cart Total</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>₹7558</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>₹7558</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to Checkout</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <!--<img class="Logo" src="img/Logo.png">-->
+                <h4>Contact</h4>
+                <p><strong>Address</strong>: 117, 3 Stage 80 Feet Road, Bangalore</p>
+                <p><strong>Phone</strong>: 0123456789</p>
+                <p><strong>Hours</strong>: 10:00 - 18:00 Mon - Sat</p>
+                <div class="follow">
+                    <h4>Keep In Touch</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-threads"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#" onclick="window.location.href='about.html';">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#" onclick="window.location.href='Contact.html';">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#" onclick="window.location.href='cart.html';">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Orders</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col">
+                <h4>Useful Links</h4>
+                <a href="#" onclick="window.location.href='blog.html';">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">Help</a>
+                <a href="#">#TAG App Download</a>
+            </div>
+
+            <div class="copy">
+                <p>Copyright © 2023 #TAG Cosmetics</p>
+            </div>
+        </footer>
+
+        <script src="Js/tag.js"></script>
+    </body>
+</html>
